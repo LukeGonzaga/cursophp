@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exemplo de PHP</h1>
-    <?php 
+    <?php
         date_default_timezone_set("America/Sao_Paulo"); //Config. TIMEZONE  #BR
         echo "Hoje é dia " . date("d/m/y");
         echo " e a hora atual é " . date ("G:i:s")
